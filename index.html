@@ -3,72 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyna - Boutique en ligne</title>
+    <title>Cyna - Cybersécurité PME & MSP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="logo">Cyna</div>
         <nav>
             <ul>
-                <li><a href="#home">Accueil</a></li>
-                <li><a href="#products">Produits</a></li>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#solutions">Solutions PME</a></li>
+                <li><a href="#soc">SOC 24/7</a></li>
+                <li><a href="#cases">Cas clients</a></li>
+                <li><a href="#team">L’équipe</a></li>
+                <li><a href="#articles">Nos articles</a></li>
+                <li><a href="#contact">Contactez-nous</a></li>
             </ul>
         </nav>
-        <a href="#cart" class="btn-cart">Panier 🛒</a>
+        <a href="#contact" class="btn-header">Je prends rendez-vous</a>
     </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Bienvenue chez Cyna</h1>
-            <p>Votre boutique en ligne de confiance pour des produits de qualité</p>
-            <a href="#products" class="btn-primary">Voir nos produits</a>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Pure player en cybersécurité pour PME et MSP</h1>
+            <p>Cyna protège les entreprises contre les cyberattaques</p>
+            <a href="#contact" class="btn-primary">Je prends rendez-vous</a>
         </div>
         <div class="hero-image">
-            <img src="images/hero.jpg" alt="Boutique Cyna">
+            <img src="images/hero.jpg" alt="Cyna cybersécurité">
         </div>
     </section>
 
-    <section id="products" class="products">
-        <h2>Nos Produits</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="images/product1.jpg" alt="Produit 1">
-                <h3>Produit 1</h3>
-                <p>49,99 €</p>
-                <button class="btn-buy">Ajouter au panier</button>
+    <!-- Services -->
+    <section id="solutions" class="services">
+        <h2>Découvrez nos solutions de cybersécurité pour les PME</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Prévention</h3>
+                <p>Audit de sécurité : Réduisez votre niveau d’exposition aux risques grâce à nos audits.</p>
+                <a href="#" class="btn-secondary">En savoir plus</a>
             </div>
-            <div class="product-card">
-                <img src="images/product2.jpg" alt="Produit 2">
-                <h3>Produit 2</h3>
-                <p>29,99 €</p>
-                <button class="btn-buy">Ajouter au panier</button>
+            <div class="service-card">
+                <h3>Protection</h3>
+                <p>SOC 24/7 : Défendez-vous face aux menaces grâce à une surveillance en temps réel.</p>
+                <a href="#" class="btn-secondary">En savoir plus</a>
             </div>
-            <div class="product-card">
-                <img src="images/product3.jpg" alt="Produit 3">
-                <h3>Produit 3</h3>
-                <p>19,99 €</p>
-                <button class="btn-buy">Ajouter au panier</button>
+            <div class="service-card">
+                <h3>Réponse</h3>
+                <p>Cyna CERT : Soyez sécurisé avec notre CERT en cas d’attaque.</p>
+                <a href="#" class="btn-secondary">En savoir plus</a>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
-        <h2>À propos de Cyna</h2>
-        <p>Cyna est votre boutique en ligne fiable, proposant des produits de qualité à des prix compétitifs. Notre mission : rendre votre expérience d'achat simple et agréable.</p>
+    <!-- Cas clients -->
+    <section id="cases" class="cases">
+        <h2>Ils nous font confiance</h2>
+        <div class="case-card">
+            <p>“Une équipe réactive et efficace, SOC 24/7 basé en France.”</p>
+            <h4>Edouard DB - Directeur Général</h4>
+        </div>
+        <div class="case-card">
+            <p>“Grâce au Pentest, nous avons obtenu une évaluation complète de notre sécurité.”</p>
+            <h4>Jérémy J - Directeur SI</h4>
+        </div>
+        <div class="case-card">
+            <p>“Une solution SOC 24/7 simple à déployer et efficace pour MSP.”</p>
+            <h4>Jérémie K - Directeur BU Informatique</h4>
+        </div>
     </section>
 
+    <!-- Team -->
+    <section id="team" class="team">
+        <h2>L’équipe Cyna</h2>
+        <p>Des experts certifiés, proches de nos clients pour une cybersécurité optimale.</p>
+    </section>
+
+    <!-- Articles -->
+    <section id="articles" class="articles">
+        <h2>Nos derniers articles</h2>
+        <div class="article-card">
+            <h3>Rapport CERT cybersécurité - T2 2025</h3>
+            <p>Actualités cybersécurité : rapport CERT du deuxième trimestre 2025.</p>
+            <a href="#" class="btn-secondary">Lire l’article</a>
+        </div>
+        <div class="article-card">
+            <h3>SOC managé pour MSP</h3>
+            <p>L’avantage concurrentiel indispensable pour les MSP.</p>
+            <a href="#" class="btn-secondary">Lire l’article</a>
+        </div>
+    </section>
+
+    <!-- Contact -->
     <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Email : <a href="mailto:contact@cyna.com">contact@cyna.com</a></p>
+        <h2>Contactez Cyna</h2>
+        <p>Email : <a href="mailto:contact@cyna-it.fr">contact@cyna-it.fr</a></p>
         <p>Téléphone : +33 6 12 34 56 78</p>
-        <p>Adresse : 123 Rue de la Boutique, Paris, France</p>
+        <p>Adresse : 24 r Fbg Poissonnière, 75010 Paris</p>
+        <a href="#contact" class="btn-primary">Je prends rendez-vous</a>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Cyna - Tous droits réservés</p>
+        <p>LinkedIn : CYNA</p>
     </footer>
 </body>
 </html>
