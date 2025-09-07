@@ -3,58 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saidou - Portfolio DevOps</title>
+    <title>Cyna - Boutique en ligne</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">Saidou</div>
+        <div class="logo">Cyna</div>
         <nav>
             <ul>
-                <li><a href="#projets">Projets GitHub</a></li>
-                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#about">À propos</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <a href="#contact" class="btn-header">Me contacter</a>
+        <a href="#cart" class="btn-cart">Panier 🛒</a>
     </header>
 
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Bonjour, je suis Saidou</h1>
-            <h2>Apprenti DevOps</h2>
-            <p>Bienvenue sur mon portfolio en ligne !</p>
-            <a href="#projets" class="btn-primary">Voir mes projets GitHub</a>
+            <h1>Bienvenue chez Cyna</h1>
+            <p>Votre boutique en ligne de confiance pour des produits de qualité</p>
+            <a href="#products" class="btn-primary">Voir nos produits</a>
         </div>
         <div class="hero-image">
-            <img src="ccdea82b-bd4e-4e3e-bfb9-fdabd936956c.png" alt="Saidou DevOps">
+            <img src="images/hero.jpg" alt="Boutique Cyna">
         </div>
     </section>
 
-    <section id="competences" class="skills">
-        <h2>Compétences</h2>
-        <ul>
-            <li>Linux</li>
-            <li>Terraform</li>
-            <li>Azure / AWS</li>
-            <li>Python / Bash</li>
-            <li>Docker / Kubernetes</li>
-        </ul>
+    <section id="products" class="products">
+        <h2>Nos Produits</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/product1.jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p>49,99 €</p>
+                <button class="btn-buy">Ajouter au panier</button>
+            </div>
+            <div class="product-card">
+                <img src="images/product2.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p>29,99 €</p>
+                <button class="btn-buy">Ajouter au panier</button>
+            </div>
+            <div class="product-card">
+                <img src="images/product3.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p>19,99 €</p>
+                <button class="btn-buy">Ajouter au panier</button>
+            </div>
+        </div>
     </section>
 
-    <section id="projets" class="projects">
-        <h2>Projets GitHub</h2>
-        <p>Mes projets sont disponibles sur <a href="https://github.com/saidou-dia" target="_blank">GitHub</a></p>
+    <section id="about" class="about">
+        <h2>À propos de Cyna</h2>
+        <p>Cyna est votre boutique en ligne fiable, proposant des produits de qualité à des prix compétitifs. Notre mission : rendre votre expérience d'achat simple et agréable.</p>
     </section>
 
     <section id="contact" class="contact">
         <h2>Contact</h2>
-        <p>Email : <a href="mailto:saidou@example.com">saidou@example.com</a></p>
+        <p>Email : <a href="mailto:contact@cyna.com">contact@cyna.com</a></p>
         <p>Téléphone : +33 6 12 34 56 78</p>
+        <p>Adresse : 123 Rue de la Boutique, Paris, France</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Saidou - Portfolio DevOps</p>
+        <p>&copy; 2025 Cyna - Tous droits réservés</p>
     </footer>
 </body>
 </html>
