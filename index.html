@@ -2,30 +2,59 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Saidou - Apprenti DevOps</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f4f4f9; color: #333; }
-        h1 { color: #2c3e50; }
-        h2 { color: #16a085; }
-        a { text-decoration: none; color: white; background-color: #2980b9; padding: 10px 20px; border-radius: 5px; }
-        a:hover { background-color: #1c5980; }
-        .skills { margin-top: 30px; }
-        .skills span { display: inline-block; margin: 5px 10px; padding: 5px 10px; background-color: #ecf0f1; border-radius: 4px; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saidou - Portfolio DevOps</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bonjour, je suis Saidou</h1>
-    <h2>Apprenti DevOps</h2>
-    <p>Bienvenue sur mon portfolio en ligne !</p>
-    <a href="https://github.com/saidou-dia" target="_blank">Voir mes projets GitHub</a>
+    <header>
+        <div class="logo">Saidou</div>
+        <nav>
+            <ul>
+                <li><a href="#projets">Projets GitHub</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn-header">Me contacter</a>
+    </header>
 
-    <div class="skills">
-        <h3>Compétences :</h3>
-        <span>Linux</span>
-        <span>Terraform</span>
-        <span>Azure / AWS</span>
-        <span>Python / Bash</span>
-        <span>Docker / Kubernetes</span>
-    </div>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bonjour, je suis Saidou</h1>
+            <h2>Apprenti DevOps</h2>
+            <p>Bienvenue sur mon portfolio en ligne !</p>
+            <a href="#projets" class="btn-primary">Voir mes projets GitHub</a>
+        </div>
+        <div class="hero-image">
+            <img src="ccdea82b-bd4e-4e3e-bfb9-fdabd936956c.png" alt="Saidou DevOps">
+        </div>
+    </section>
+
+    <section id="competences" class="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Linux</li>
+            <li>Terraform</li>
+            <li>Azure / AWS</li>
+            <li>Python / Bash</li>
+            <li>Docker / Kubernetes</li>
+        </ul>
+    </section>
+
+    <section id="projets" class="projects">
+        <h2>Projets GitHub</h2>
+        <p>Mes projets sont disponibles sur <a href="https://github.com/saidou-dia" target="_blank">GitHub</a></p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email : <a href="mailto:saidou@example.com">saidou@example.com</a></p>
+        <p>Téléphone : +33 6 12 34 56 78</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Saidou - Portfolio DevOps</p>
+    </footer>
 </body>
 </html>
