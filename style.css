@@ -9,18 +9,15 @@ body {
 header h1 {
     text-align: center;
     color: #007bff;
+    margin-top: 20px;
 }
 
-.about {
-    max-width: 800px;
-    margin: 40px auto;
+section {
+    max-width: 800px; /* largeur uniforme pour toutes les sections */
+    margin: 40px auto; /* centrer horizontalement et espacement vertical */
     line-height: 1.6;
     font-size: 18px;
-}
-
-.contact {
-    text-align: center;
-    margin-top: 40px;
+    text-align: center; /* texte centré */
 }
 
 .contact a {
