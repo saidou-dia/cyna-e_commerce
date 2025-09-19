@@ -1,4 +1,4 @@
-/* Styles généraux */
+/* General Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f5f5;
@@ -25,7 +25,7 @@ header .subtitle {
     font-size: 1.2em;
 }
 
-/* Section principale */
+/* Sections */
 section {
     max-width: 800px;
     margin: 40px auto;
@@ -39,7 +39,13 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Bouton LinkedIn */
+section h3 {
+    color: #0056b3;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* LinkedIn Button */
 .linkedin-btn {
     display: inline-block;
     padding: 12px 25px;
@@ -62,7 +68,7 @@ section h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .skills .skill-list span {
