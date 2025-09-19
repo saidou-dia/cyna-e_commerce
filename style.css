@@ -1,62 +1,4 @@
-/* Styles généraux */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header */
-header {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 50px 20px 30px 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header .subtitle {
-    margin-top: 10px;
-    font-size: 1.2em;
-}
-
-/* Section principale */
-section {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
-    text-align: center;
-    line-height: 1.6;
-}
-
-section h2 {
-    color: #007bff;
-    margin-bottom: 20px;
-}
-
-/* Bouton LinkedIn */
-.linkedin-btn {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #0077b5;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-}
-
-.linkedin-btn:hover {
-    background-color: #005582;
-}
-
-/* Skills */
+/* Skills / Badges */
 .skills .skill-list {
     display: flex;
     flex-wrap: wrap;
@@ -71,27 +13,11 @@ section h2 {
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 0.95em;
+    transition: background-color 0.3s;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    margin: 60px 0;
-    color: #777;
-    font-size: 0.9em;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    header .subtitle {
-        font-size: 1em;
-    }
-
-    section {
-        margin: 30px 10px;
-    }
+.skills .skill-list span:hover {
+    background-color: #007bff;
+    color: white;
+    cursor: default;
 }
